@@ -1,0 +1,431 @@
+gppd_idnr,plant_name,issue_type,detail,capacity_mw
+ARG0000193,PARQUE EOLICO ARAUCO SAPEM II,OCEAN_COORDS,"lat=7.7724, lon=-33.1519",25.2
+USA0060669,Sod Run WTP A,OCEAN_COORDS,"lat=7.4482, lon=-128.3041",2.0
+USA0010244,Pixelle Specialty Solutions LLC - Chillicothe Facility,OCEAN_COORDS,"lat=12.7222, lon=-22.1807",92.8
+BRA0027766,Vale Fertilizantes Uberaba (Antiga Fosfértil - Expansão do Complexo Industrial Uberaba),OCEAN_COORDS,"lat=10.0658, lon=-23.7779",24.4
+USA0007767,Bloomington Power Plant,OCEAN_COORDS,"lat=9.3191, lon=-137.4718",10.2
+USA0059583,Tart Farm,OCEAN_COORDS,"lat=6.6077, lon=-120.8374",5.0
+GBR0005945,Cairnmore Solar Park (extension),OCEAN_COORDS,"lat=13.4069, lon=-33.6322",
+USA0001024,Crawfordsville Power Plant,OCEAN_COORDS,"lat=-10.0587, lon=83.3538",24.9
+WKS0070017,Yichuan A,OCEAN_COORDS,"lat=17.6665, lon=-24.9069",30.0
+WRI1002055,Gideabacka,OCEAN_COORDS,"lat=-26.9073, lon=85.4529",14.0
+WRI1030190,Altenburg Flugplatz Solar Power Plant,OCEAN_COORDS,"lat=7.1713, lon=-20.7724",12.1
+BRA0029703,Coruripe Energética - Filial Campo Florido,OCEAN_COORDS,"lat=15.8541, lon=-27.7174",30.0
+GBR0005664,Stob House Farm,OCEAN_COORDS,"lat=-13.6066, lon=77.0393",4.9
+GBR2001106,Laurelhill,OCEAN_COORDS,"lat=3.7079, lon=-162.7957",8.5
+USA0007527,Carson Ice-Gen Project,OCEAN_COORDS,"lat=-25.7516, lon=78.2603",125.5
+WRI1030268,Schneebergerhof Solar Power Plant,OCEAN_COORDS,"lat=-24.4028, lon=75.3152",1.1
+WKS0063897,Sen Jing,OCEAN_COORDS,"lat=1.2349, lon=-123.3982",9.3
+WRI1023040,Praia,OCEAN_COORDS,"lat=14.928, lon=-23.545",10.0
+WRI1005240,Schwarzach,OCEAN_COORDS,"lat=-23.254, lon=85.731",120.0
+USA0002756,Gaston,OCEAN_COORDS,"lat=8.89, lon=-28.1113",177.6
+WRI1075586,Changzhou Zhongtian Iron & Steel power station,OCEAN_COORDS,"lat=17.851, lon=-32.0362",230.0
+GBR0004638,Glenchamber,OCEAN_COORDS,"lat=-20.2378, lon=87.3265",27.5
+WRI1000178,Pak Mun,OCEAN_COORDS,"lat=4.2535, lon=-151.8463",136.0
+AUS0000220,Argyle Diamond Mine,OCEAN_COORDS,"lat=2.8991, lon=-154.7273",32.0
+WKS0061199,Golmud CPV,OCEAN_COORDS,"lat=15.8781, lon=-39.9933",50.0
+WRI1030694,QURAYYAH- CC,OCEAN_COORDS,"lat=19.4937, lon=-28.1605",3846.0
+WKS0067256,Parigi SSJ,OCEAN_COORDS,"lat=19.3754, lon=-22.2856",5.0
+USA0001283,Herington,OCEAN_COORDS,"lat=0.7982, lon=-141.5724",
+WRI1022422,Ulagunan,OCEAN_COORDS,"lat=-11.098, lon=63.434",8.4
+USA0060579,Meriwether Farm,OCEAN_COORDS,"lat=-19.1358, lon=78.439",5.0
+WRI1003075,Dalsfoss,OCEAN_COORDS,"lat=16.9377, lon=-37.467",8.0
+WRI1061437,SIDEGUA,OCEAN_COORDS,"lat=7.0019, lon=-136.0773",
+WRI1061491,Tzafit (Dalia),OCEAN_COORDS,"lat=-24.8887, lon=84.0687",835.0
+USA0054639,Berlin Gorham,OCEAN_COORDS,"lat=-3.7787, lon=-141.4048",30.299999999999997
+WRI1071894,Yunnan Jiduhe Cascade Iv,OCEAN_COORDS,"lat=17.7719, lon=-36.6108",12.0
+WRI1025506,Aizenay,OCEAN_COORDS,"lat=-27.7004, lon=81.9246",
+WKS0073235,Dalikoucun A,OCEAN_COORDS,"lat=11.3822, lon=-22.3995",35.0
+WRI1024507,Cast,OCEAN_COORDS,"lat=17.3379, lon=-20.5561",10.0
+USA0060133,Morgan Farm  LLC,OCEAN_COORDS,"lat=8.8772, lon=-24.6977",5.0
+BRA0029162,CRV,OCEAN_COORDS,"lat=-7.055, lon=-140.434",4.0
+WKS0074074,Bandarupalli A,OCEAN_COORDS,"lat=-19.8684, lon=68.4798",15.0
+USA0062614,Kinder Morgan Fordham,OCEAN_COORDS,"lat=-1.9603, lon=-164.9923",1.7
+USA0057734,Cherry Hill,OCEAN_COORDS,"lat=-18.0809, lon=81.1165",
+USA0006189,Rocky Mountain Hydroelectric Plant,OCEAN_COORDS,"lat=-23.0141, lon=73.7278",847.8000000000001
+BRA0030063,Bioenergética Vale do Paracatu - BEVAP,OCEAN_COORDS,"lat=-26.7101, lon=87.5293",55.0
+USA0000233,Deer Creek PH,OCEAN_COORDS,"lat=5.2997, lon=-167.4925",
+WRI1070191,Diandong power station,OCEAN_COORDS,"lat=16.8635, lon=-34.126",2400.0
+CAN0008172,Northern Pulp Nova Scotia Pictou Mill,OCEAN_COORDS,"lat=-3.084, lon=-145.1356",26.0
+WRI1071024,Shanxi Yangcheng Coal Mine Methane,OCEAN_COORDS,"lat=16.8826, lon=-32.5028",16.0
+CAN0007822,Dufferin,OCEAN_COORDS,"lat=8.7267, lon=-129.2304",40.6
+WRI1075740,Tianjin Petrolchemical captive power station,OCEAN_COORDS,"lat=-27.7465, lon=80.2839",300.0
+USA0050328,Byllesby,OCEAN_COORDS,"lat=19.9953, lon=-34.3701",2.5
+USA0060076,Palmer Landfill,OCEAN_COORDS,"lat=14.3262, lon=-29.4723",4.0
+WRI1026842,Siang Phong,OCEAN_COORDS,"lat=-23.9636, lon=74.641",2.0
+BRA0031765,Vila Pará III,OCEAN_COORDS,"lat=15.7211, lon=-38.1741",24.0
+BRA0030026,Guaíra Energética,OCEAN_COORDS,"lat=4.5638, lon=-133.9858",
+USA0007854,Avenue A Generator Sets,OCEAN_COORDS,"lat=-28.3231, lon=65.012",3.6
+GBR0000554,Himley Wood Landfill Site,OCEAN_COORDS,"lat=-18.1405, lon=60.9164",4.4
+WRI1070509,Jilin - Guodian Coal,OCEAN_COORDS,"lat=-2.1394, lon=-149.2969",650.0
+WRI1006152,Zeltingen,OCEAN_COORDS,"lat=19.2818, lon=-24.575",13.6
+WRI1003244,Hynna,OCEAN_COORDS,"lat=3.3939, lon=-152.9193",
+BRA0029911,Fibrasa Embalagens,OCEAN_COORDS,"lat=-14.3576, lon=74.3839",
+WRI1000910,PLTU Asam-asam 1 & 2,OCEAN_COORDS,"lat=0.5002, lon=-140.679",260.0
+WRI1028015,Caonillas 1,OCEAN_COORDS,"lat=-15.9959, lon=72.2114",18.0
+GBR2001077,Mynydd Y Gwair Wind Farm (resubmission),OCEAN_COORDS,"lat=-19.9793, lon=73.0347",32.8
+USA0057787,Flat Ridge 2 Wind Energy LLC,OCEAN_COORDS,"lat=3.4034, lon=-157.2191",470.4
+GBR1000500,Killingholme,OCEAN_COORDS,"lat=-2.7846, lon=-141.6905",600.0
+IND0000074,CHAMERA-I,OCEAN_COORDS,"lat=-3.054, lon=-153.8558",540.0
+BRA0027250,Aparecida Parte I,OCEAN_COORDS,"lat=15.3046, lon=-20.4881",240.74
+USA0059154,Bradley PV1,OCEAN_COORDS,"lat=8.234, lon=-37.2121",5.0
+WRI1026245,Nakhon Si Thammarat Solar Power Plant,OCEAN_COORDS,"lat=9.9443, lon=-130.9771",1.0
+WRI1075725,Shenneng Korla power station,OCEAN_COORDS,"lat=15.049, lon=-32.512",700.0
+GBR0003971,Cotton Farm,OCEAN_COORDS,"lat=18.6141, lon=-36.384",
+BRA0030079,Indaiazinho  (Antiga Indaiazinho Grande),OCEAN_COORDS,"lat=-29.3639, lon=87.7935",12.5
+IND0000103,DLF,OCEAN_COORDS,"lat=-16.9581, lon=80.0907",15.5
+USA0001629,Cabot,OCEAN_COORDS,"lat=-12.6421, lon=66.795",61.8
+WKS0070192,Gaorenxiang B,OCEAN_COORDS,"lat=-3.0904, lon=-121.3023",50.0
+WKS0065404,Großbeeren,OCEAN_COORDS,"lat=9.8796, lon=-162.2569",10.0
+USA0057210,Cedar Creek II,OCEAN_COORDS,"lat=-20.6038, lon=69.9053",248.3
+WRI1025750,Embrun,OCEAN_COORDS,"lat=-9.772, lon=-129.125",1.04187
+GEODB0003667,Inguri (Enguri) Dam Hydroelectric Power Station Georgia,OCEAN_COORDS,"lat=-3.3353, lon=-143.6491",1300.0
+USA0060639,Kingman Wind,OCEAN_COORDS,"lat=-15.1373, lon=88.7541",214.8
+WRI1004041,Amsteg-Regulierzentrale,OCEAN_COORDS,"lat=13.9018, lon=-31.069",1.73
+GBR0004659,Crook Hill (Revised Application - Rochdale MBC) 2 of 2,OCEAN_COORDS,"lat=-19.5486, lon=63.4056",23.8
+BRA0030222,CooperSul,OCEAN_COORDS,"lat=8.6481, lon=-23.239",1.44
+WRI1025905,Schwarzheide Solar Power Plant,OCEAN_COORDS,"lat=17.3325, lon=-25.4081",
+WRI1023690,DAOURAT,OCEAN_COORDS,"lat=-25.155, lon=67.6638",17.0
+WRI1026397,Bosco Marengo Solar Power Plant,OCEAN_COORDS,"lat=1.9678, lon=-120.3517",6.5
+WRI1003765,Novo-Irkustsk,OCEAN_COORDS,"lat=8.5941, lon=-31.7988",655.0
+WRI1019894,NIMBAHERA JK CEMENT,OCEAN_COORDS,"lat=-22.6821, lon=81.5321",33.2
+WRI1070978,Yutan Hydroelectric,OCEAN_COORDS,"lat=6.2755, lon=-34.9201",16.0
+CAN0007787,Cowley North,OCEAN_COORDS,"lat=-2.4527, lon=-129.5235",19.5
+WRI1018966,Pamukören 2,OCEAN_COORDS,"lat=-18.5961, lon=78.6581",
+CAN0002214,Rapide-Blanc,OCEAN_COORDS,"lat=-1.0007, lon=-168.9511",204.0
+WRI1004044,Ardon,OCEAN_COORDS,"lat=-16.8362, lon=65.412",52.0
+WRI1007821,PUERTO DE BARCELONA  GRUPO 2,OCEAN_COORDS,"lat=-7.7695, lon=-130.365",866.3
+USA0050626,Chalmette Refining LLC,OCEAN_COORDS,"lat=5.5076, lon=-157.2181",5.7
+USA0003484,Nichols,OCEAN_COORDS,"lat=-27.9697, lon=89.0155",474.7
+WRI1030305,Greding Solar Power Plant,OCEAN_COORDS,"lat=17.6144, lon=-39.8917",4.5
+USA0007697,Washington County Cogeneration Facility,OCEAN_COORDS,"lat=4.9952, lon=-167.1444",122.5
+WRI1071873,Taiyangshan Phase 4,OCEAN_COORDS,"lat=-7.5479, lon=-148.7066",49.0
+USA0006189,Rocky Mountain Hydroelectric Plant,OCEAN_COORDS,"lat=-23.0141, lon=73.7278",847.8000000000001
+USA0001024,Crawfordsville Power Plant,OCEAN_COORDS,"lat=-10.0587, lon=83.3538",24.9
+BRA0031765,Vila Pará III,OCEAN_COORDS,"lat=15.7211, lon=-38.1741",24.0
+WRI1025362,La Salvetat-Peyralès,DUPLICATE_ID,appears 2x,1.72735
+WRI1000170,Lam Ta Khong,DUPLICATE_ID,appears 2x,1000.0
+BRA0002173,Salto do Passo Velho,DUPLICATE_ID,appears 2x,1.8
+IND0000436,T.B. DAM,DUPLICATE_ID,appears 2x,36.0
+WRI1001004,Riam Kanan/pangeran Muhamad Nur,DUPLICATE_ID,appears 2x,30.0
+USA0001024,Crawfordsville Power Plant,DUPLICATE_ID,appears 2x,24.9
+GBR2001162,Kings Barn Farm - Energy Barn,DUPLICATE_ID,appears 2x,
+WRI1025294,La Rochelle-Normande,DUPLICATE_ID,appears 2x,1.98698
+ARG0000323,NUEVA ESPERANZA,DUPLICATE_ID,appears 2x,3.38
+WRI1061454,Ortitlán,DUPLICATE_ID,appears 2x,25.2
+WRI1025256,Étampes,DUPLICATE_ID,appears 2x,2.126
+USA0061752,Quincy II Solar Garden,DUPLICATE_ID,appears 2x,1.5
+USA0001259,Ashland,DUPLICATE_ID,appears 2x,
+WRI1024329,Avesnes-en-Bray,DUPLICATE_ID,appears 2x,12.0
+WRI1029770,Krhanice Solar Power Plant,DUPLICATE_ID,appears 2x,1.3
+USA0000515,Big Thompson,DUPLICATE_ID,appears 2x,4.5
+USA0058718,Orion Solar I,DUPLICATE_ID,appears 2x,
+WRI1029664,Kosořín 1 Solar Power Plant,DUPLICATE_ID,appears 2x,2.0
+USA0010440,SEGS IV,DUPLICATE_ID,appears 2x,34.2
+GBR0002282,Chapel Lane Parley Solar Farm Phase 1,DUPLICATE_ID,appears 2x,20.0
+USA0059270,Victor Mesa Linda C2,DUPLICATE_ID,appears 2x,1.5
+WRI1072073,Fuqing Jiaru Wind Power Phase 2,DUPLICATE_ID,appears 2x,48.0
+USA0006264,Mountaineer,DUPLICATE_ID,appears 2x,1300.0
+USA0063512,Wor-Wic Community College - Offsite,DUPLICATE_ID,appears 2x,2.0
+GBR0000331,Metheringham Heath (Farm AD),DUPLICATE_ID,appears 2x,6.5
+USA0007400,Salisbury City of,DUPLICATE_ID,appears 2x,6.4
+AUS0000305,Broken Hill,DUPLICATE_ID,appears 2x,50.0
+USA0061255,Haywood Farm Solar  LLC,DUPLICATE_ID,appears 2x,4.9
+WRI1025525,Saint-Maximin-la-Sainte-Baume,DUPLICATE_ID,appears 2x,1.31957
+WRI1006731,P. E.  LA GAMONEDA (AMPLIADA CON RE-1814),DUPLICATE_ID,appears 2x,19.8
+WRI1002570,Vaaja,DUPLICATE_ID,appears 2x,3.6
+WRI1024941,Villar-d'Arêne,DUPLICATE_ID,appears 2x,4.659
+USA0052036,Yough Hydro Power,DUPLICATE_ID,appears 2x,12.2
+WKS0073925,Harij,DUPLICATE_ID,appears 2x,30.0
+USA0057280,Aqua Ingrams Mill,DUPLICATE_ID,appears 2x,
+GBR0000342,Cattlegate Farm Biogas (Farm AD),DUPLICATE_ID,appears 2x,1.5
+WKS0065817,Qili} M,DUPLICATE_ID,appears 2x,75.0
+CAN0007859,Fitzpatrick Mountain,DUPLICATE_ID,appears 2x,1.6
+USA0055685,Flambeau Lower Project,DUPLICATE_ID,appears 2x,1.2000000000000002
+WRI1023584,Layyah Power Station (LPS),DUPLICATE_ID,appears 2x,911.0
+WRI1061600,FW Lipniki,DUPLICATE_ID,appears 2x,30.0
+USA0006189,Rocky Mountain Hydroelectric Plant,DUPLICATE_ID,appears 2x,847.8000000000001
+USA0007855,Moorhead Wind Turbine,DUPLICATE_ID,appears 2x,1.4
+USA0063649,NHH004 Winthrop Fuel Cell,DUPLICATE_ID,appears 2x,1.0
+WRI1026622,TSOUKA TSOUGARI,DUPLICATE_ID,appears 2x,12.0
+GBR0002082,Upper Farm solar park,DUPLICATE_ID,appears 2x,12.0
+URY0000854,ENGRAW,DUPLICATE_ID,appears 2x,3.6
+USA0000002,Bankhead Dam,DUPLICATE_ID,appears 2x,53.9
+USA0010800,Pelzer Lower,DUPLICATE_ID,appears 2x,3.3
+BRA0031765,Vila Pará III,DUPLICATE_ID,appears 2x,24.0
+WKS0070011,Yuzhou A,DUPLICATE_ID,appears 2x,35.0
+USA0003163,Moser Generating Station,DUPLICATE_ID,appears 2x,63.599999999999994
+AUS0000236,Pedler Creek,DUPLICATE_ID,appears 2x,3.0
+WRI1030901,Hat Liu,DUPLICATE_ID,appears 2x,5.0
+BRA0029202,São Tomé,DUPLICATE_ID,appears 2x,4.0
+WRI1004271,Kernkraftwerk Beznau,DUPLICATE_ID,appears 2x,760.0
+WRI1061545,Rakowice,DUPLICATE_ID,appears 2x,2.0
+WRI1030132,Braschwitz Solar Power Plant,DUPLICATE_ID,appears 2x,8.0
+CAN0008097,Matthias,DUPLICATE_ID,appears 2x,3.0
+WRI1026372,Qinghai Yuhui Solar,DUPLICATE_ID,appears 2x,20.0
+WRI1070202,Tongmei Datang power station,DUPLICATE_ID,appears 2x,660.0
+IND0000440,TALWANDI SABO,DUPLICATE_ID,appears 2x,1980.0
+GEODB0004720,Pasir Panjang Gas Turbine Power Station Singapore,DUPLICATE_ID,appears 2x,210.0
+BRA0001276,Juiz de Fora,DUPLICATE_ID,appears 2x,87.048
+WRI1020235,Jozankei,DUPLICATE_ID,appears 2x,120.0
+WRI1006705,NEUMATICOS MICHELIN-VITORIA,DUPLICATE_ID,appears 2x,47.0
+WRI1070770,Yaomeng power station,DUPLICATE_ID,appears 2x,2160.0
+WRI1061402,Palo Viejo,DUPLICATE_ID,appears 2x,85.0
+WKS0070653,Nakanishi A,DUPLICATE_ID,appears 2x,20.0
+BRA0030945,Ventos de Morrinhos,DUPLICATE_ID,appears 2x,30.0
+WRI1071705,Baiyun Ebo Inner Mongolia Luneng Phase 2,DUPLICATE_ID,appears 2x,49.0
+WRI1023650,SEROS II 1,DUPLICATE_ID,appears 2x,44.24
+USA0062760,Hopkinton CSG,DUPLICATE_ID,appears 2x,
+CAN0008047,Lily Lake,DUPLICATE_ID,appears 2x,10.0
+WRI1000048,Olkaria I,DUPLICATE_ID,appears 2x,45.0
+CAN0002105,Bear Mountain,DUPLICATE_ID,appears 2x,102.0
+GBR0003253,Hunter's Hill,DUPLICATE_ID,appears 2x,20.0
+WRI1071337,Inner Mongolia Wudaogou Iii Wind,DUPLICATE_ID,appears 2x,48.0
+CAN0008617,Mont Rothery,DUPLICATE_ID,appears 2x,74.0
+WRI1000197,Pyeongtaek,DUPLICATE_ID,appears 2x,1400.0
+GBR0002082,Upper Farm solar park,DUPLICATE_ID,appears 2x,12.0
+WRI1025362,La Salvetat-Peyralès,DUPLICATE_ID,appears 2x,1.72735
+WRI1024941,Villar-d'Arêne,DUPLICATE_ID,appears 2x,4.659
+GBR0000331,Metheringham Heath (Farm AD),DUPLICATE_ID,appears 2x,6.5
+WRI1061600,FW Lipniki,DUPLICATE_ID,appears 2x,30.0
+WRI1026372,Qinghai Yuhui Solar,DUPLICATE_ID,appears 2x,20.0
+AUS0000236,Pedler Creek,DUPLICATE_ID,appears 2x,3.0
+WRI1020235,Jozankei,DUPLICATE_ID,appears 2x,120.0
+ARG0000323,NUEVA ESPERANZA,DUPLICATE_ID,appears 2x,3.38
+USA0001259,Ashland,DUPLICATE_ID,appears 2x,5.6000000000000005
+WRI1071705,Baiyun Ebo Inner Mongolia Luneng Phase 2,DUPLICATE_ID,appears 2x,49.0
+USA0000515,Big Thompson,DUPLICATE_ID,appears 2x,4.5
+WRI1000048,Olkaria I,DUPLICATE_ID,appears 2x,45.0
+USA0063512,Wor-Wic Community College - Offsite,DUPLICATE_ID,appears 2x,2.0
+BRA0029202,São Tomé,DUPLICATE_ID,appears 2x,4.0
+USA0059270,Victor Mesa Linda C2,DUPLICATE_ID,appears 2x,1.5
+USA0007855,Moorhead Wind Turbine,DUPLICATE_ID,appears 2x,1.4
+BRA0002173,Salto do Passo Velho,DUPLICATE_ID,appears 2x,1.8
+WRI1070202,Tongmei Datang power station,DUPLICATE_ID,appears 2x,660.0
+WRI1006731,P. E.  LA GAMONEDA (AMPLIADA CON RE-1814),DUPLICATE_ID,appears 2x,19.8
+IND0000440,TALWANDI SABO,DUPLICATE_ID,appears 2x,1980.0
+CAN0002105,Bear Mountain,DUPLICATE_ID,appears 2x,102.0
+WRI1000170,Lam Ta Khong,DUPLICATE_ID,appears 2x,1000.0
+WRI1025294,La Rochelle-Normande,DUPLICATE_ID,appears 2x,1.98698
+USA0007400,Salisbury City of,DUPLICATE_ID,appears 2x,6.4
+WRI1029770,Krhanice Solar Power Plant,DUPLICATE_ID,appears 2x,1.3
+WRI1061402,Palo Viejo,DUPLICATE_ID,appears 2x,85.0
+WRI1001004,Riam Kanan/pangeran Muhamad Nur,DUPLICATE_ID,appears 2x,30.0
+WRI1025525,Saint-Maximin-la-Sainte-Baume,DUPLICATE_ID,appears 2x,1.31957
+WRI1000197,Pyeongtaek,DUPLICATE_ID,appears 2x,1400.0
+USA0061752,Quincy II Solar Garden,DUPLICATE_ID,appears 2x,1.5
+WRI1004271,Kernkraftwerk Beznau,DUPLICATE_ID,appears 2x,760.0
+WRI1030901,Hat Liu,DUPLICATE_ID,appears 2x,
+WRI1029664,Kosořín 1 Solar Power Plant,DUPLICATE_ID,appears 2x,2.0
+USA0010800,Pelzer Lower,DUPLICATE_ID,appears 2x,3.3
+GBR0000342,Cattlegate Farm Biogas (Farm AD),DUPLICATE_ID,appears 2x,1.5
+WRI1026622,TSOUKA TSOUGARI,DUPLICATE_ID,appears 2x,
+WKS0065817,Qili} M,DUPLICATE_ID,appears 2x,75.0
+USA0006189,Rocky Mountain Hydroelectric Plant,DUPLICATE_ID,appears 2x,847.8000000000001
+USA0010440,SEGS IV,DUPLICATE_ID,appears 2x,34.2
+WRI1024329,Avesnes-en-Bray,DUPLICATE_ID,appears 2x,12.0
+WRI1025256,Étampes,DUPLICATE_ID,appears 2x,2.126
+BRA0030945,Ventos de Morrinhos,DUPLICATE_ID,appears 2x,30.0
+WRI1023650,SEROS II 1,DUPLICATE_ID,appears 2x,44.24
+USA0058718,Orion Solar I,DUPLICATE_ID,appears 2x,12.0
+WKS0070653,Nakanishi A,DUPLICATE_ID,appears 2x,20.0
+WKS0070011,Yuzhou A,DUPLICATE_ID,appears 2x,35.0
+USA0062760,Hopkinton CSG,DUPLICATE_ID,appears 2x,2.0
+CAN0008617,Mont Rothery,DUPLICATE_ID,appears 2x,74.0
+WRI1070770,Yaomeng power station,DUPLICATE_ID,appears 2x,2160.0
+BRA0001276,Juiz de Fora,DUPLICATE_ID,appears 2x,87.048
+USA0063649,NHH004 Winthrop Fuel Cell,DUPLICATE_ID,appears 2x,1.0
+GBR0003253,Hunter's Hill,DUPLICATE_ID,appears 2x,20.0
+AUS0000305,Broken Hill,DUPLICATE_ID,appears 2x,50.0
+WRI1071337,Inner Mongolia Wudaogou Iii Wind,DUPLICATE_ID,appears 2x,48.0
+WKS0073925,Harij,DUPLICATE_ID,appears 2x,30.0
+USA0052036,Yough Hydro Power,DUPLICATE_ID,appears 2x,12.2
+CAN0007859,Fitzpatrick Mountain,DUPLICATE_ID,appears 2x,1.6
+USA0001024,Crawfordsville Power Plant,DUPLICATE_ID,appears 2x,24.9
+GBR2001162,Kings Barn Farm - Energy Barn,DUPLICATE_ID,appears 2x,10.0
+BRA0031765,Vila Pará III,DUPLICATE_ID,appears 2x,24.0
+USA0006264,Mountaineer,DUPLICATE_ID,appears 2x,1300.0
+WRI1072073,Fuqing Jiaru Wind Power Phase 2,DUPLICATE_ID,appears 2x,
+WRI1030132,Braschwitz Solar Power Plant,DUPLICATE_ID,appears 2x,8.0
+USA0061255,Haywood Farm Solar  LLC,DUPLICATE_ID,appears 2x,4.9
+WRI1061454,Ortitlán,DUPLICATE_ID,appears 2x,25.2
+CAN0008097,Matthias,DUPLICATE_ID,appears 2x,3.0
+USA0000002,Bankhead Dam,DUPLICATE_ID,appears 2x,53.9
+CAN0008047,Lily Lake,DUPLICATE_ID,appears 2x,10.0
+GBR0002282,Chapel Lane Parley Solar Farm Phase 1,DUPLICATE_ID,appears 2x,20.0
+GEODB0004720,Pasir Panjang Gas Turbine Power Station Singapore,DUPLICATE_ID,appears 2x,210.0
+WRI1006705,NEUMATICOS MICHELIN-VITORIA,DUPLICATE_ID,appears 2x,47.0
+WRI1061545,Rakowice,DUPLICATE_ID,appears 2x,
+URY0000854,ENGRAW,DUPLICATE_ID,appears 2x,3.6
+USA0003163,Moser Generating Station,DUPLICATE_ID,appears 2x,63.599999999999994
+WRI1002570,Vaaja,DUPLICATE_ID,appears 2x,3.6
+USA0055685,Flambeau Lower Project,DUPLICATE_ID,appears 2x,1.2000000000000002
+USA0057280,Aqua Ingrams Mill,DUPLICATE_ID,appears 2x,
+WRI1023584,Layyah Power Station (LPS),DUPLICATE_ID,appears 2x,911.0
+IND0000436,T.B. DAM,DUPLICATE_ID,appears 2x,36.0
+WKS0071666,Rokunohe B,MISSING_CAPACITY,capacity_mw is NaN,
+WKS0061380,Starokozache,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1030490,NAC DPP,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1026671,GACL Kutch Wind Farm,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1022831,Ballinlough/Ikerrin,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1022648,Seixal 1,MISSING_CAPACITY,capacity_mw is NaN,
+WKS0070176,Urad Houqi C,MISSING_CAPACITY,capacity_mw is NaN,
+URY0000858,PARQUE EÓLICO LOMA ALTA - CENTRAL 1,MISSING_CAPACITY,capacity_mw is NaN,
+WKS0067966,BbSP} Vogt/Lekela,MISSING_CAPACITY,capacity_mw is NaN,
+WKS0070180,Urad Zhongqi D,MISSING_CAPACITY,capacity_mw is NaN,
+WKS0067763,Arica I p3,MISSING_CAPACITY,capacity_mw is NaN,
+GBR0005945,Cairnmore Solar Park (extension),MISSING_CAPACITY,capacity_mw is NaN,
+GBR2001162,Kings Barn Farm - Energy Barn,MISSING_CAPACITY,capacity_mw is NaN,
+USA0055927,Jasper,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1023308,Cabeço da Rainha,MISSING_CAPACITY,capacity_mw is NaN,
+USA0056440,Pilgrim Stage Wind Park,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1000190,Bundang,MISSING_CAPACITY,capacity_mw is NaN,
+USA0060415,Hardison Farm Solar  LLC,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1023982,Euvy,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1018692,EÜAS Ambarlı FO Sant. Istanbul,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1005179,Greifenstein,MISSING_CAPACITY,capacity_mw is NaN,
+GBR0003713,Crockbrack,MISSING_CAPACITY,capacity_mw is NaN,
+USA0000266,Pit 3,MISSING_CAPACITY,capacity_mw is NaN,
+USA0059514,Flat Meeks PV 1,MISSING_CAPACITY,capacity_mw is NaN,
+USA0001259,Ashland,MISSING_CAPACITY,capacity_mw is NaN,
+BRA0030295,Colônia,MISSING_CAPACITY,capacity_mw is NaN,
+BRA0000912,Ester,MISSING_CAPACITY,capacity_mw is NaN,
+GBR0001838,Barugh Farm,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1021298,TERNI,MISSING_CAPACITY,capacity_mw is NaN,
+USA0058718,Orion Solar I,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1002173,Shkopet,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1030750,Tuy Phong,MISSING_CAPACITY,capacity_mw is NaN,
+BRA0030252,PSJ,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1021706,ACCEGLIO,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1002898,LAMARMORA,MISSING_CAPACITY,capacity_mw is NaN,
+WKS0070583,Aghione 2,MISSING_CAPACITY,capacity_mw is NaN,
+CAN0007830,East LFG,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1070056,Huaneng Pingliang power station,MISSING_CAPACITY,capacity_mw is NaN,
+USA0050571,Altamont Gas Recovery,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1061540,Krępna,MISSING_CAPACITY,capacity_mw is NaN,
+USA0055084,Crockett Cogen Project,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1003221,Hol 3,MISSING_CAPACITY,capacity_mw is NaN,
+WKS0072803,Ghaggar Link Canal,MISSING_CAPACITY,capacity_mw is NaN,
+USA0002612,Spier Falls,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1071607,Inner Mongolia Chifeng Dayuying,MISSING_CAPACITY,capacity_mw is NaN,
+USA0059026,Back River Waste Water Treatment,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1025965,Ningxia Datang International Qingtongxia Stage 2,MISSING_CAPACITY,capacity_mw is NaN,
+USA0001283,Herington,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1025239,Villeneuve-lès-Avignon,MISSING_CAPACITY,capacity_mw is NaN,
+USA0061180,Caelum Community Solar,MISSING_CAPACITY,capacity_mw is NaN,
+USA0056795,Penascal Wind Power LLC,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1005761,Heizkraftwerk West,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1008168,Neishabour,MISSING_CAPACITY,capacity_mw is NaN,
+USA0062869,St. Charles Solar,MISSING_CAPACITY,capacity_mw is NaN,
+CAN0007911,Grand-Mère,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1061437,SIDEGUA,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1025506,Aizenay,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1070566,Huadian Shiliquan power station,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1020080,Nanyo Complex power station,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1061370,Thaphanseik,MISSING_CAPACITY,capacity_mw is NaN,
+GEODB0042652,Orava Hydroelectric Power Plant Slovakia,MISSING_CAPACITY,capacity_mw is NaN,
+CAN0008516,Wainwright Falls,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1072210,Yinxing Zhongning Dazhanchang Phase 2,MISSING_CAPACITY,capacity_mw is NaN,
+BRA0029059,Porto Franco,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1005993,P&L Werk Euskirchen,MISSING_CAPACITY,capacity_mw is NaN,
+BRA0030370,Miassaba II,MISSING_CAPACITY,capacity_mw is NaN,
+GBR0000328,ReFood - Dagenham Docks Biogas (Waste AD),MISSING_CAPACITY,capacity_mw is NaN,
+USA0057280,Aqua Ingrams Mill,MISSING_CAPACITY,capacity_mw is NaN,
+USA0060021,MESA 2,MISSING_CAPACITY,capacity_mw is NaN,
+WKS0060171,La Veguilla,MISSING_CAPACITY,capacity_mw is NaN,
+USA0059011,Southbridge Landfill Gas-to-Energy,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1025424,Saint-Paulien,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1061732,Yelets Thermal Power Plant,MISSING_CAPACITY,capacity_mw is NaN,
+BRA0030932,Baixa do Feijão I,MISSING_CAPACITY,capacity_mw is NaN,
+USA0058164,Slayton Solar,MISSING_CAPACITY,capacity_mw is NaN,
+MEX0006701,Energía Eléctrica de Juárez,MISSING_CAPACITY,capacity_mw is NaN,
+USA0057734,Cherry Hill,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1026159,Khetusar - Northern Solar Power Plant,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1023847,Tongliao Beiqinghe Wind Farm,MISSING_CAPACITY,capacity_mw is NaN,
+WKS0065931,Bid Madhopur,MISSING_CAPACITY,capacity_mw is NaN,
+USA0058911,Ramona 2,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1008720,Hemrin Dam,MISSING_CAPACITY,capacity_mw is NaN,
+USA0056879,Flat Ridge Wind Energy LLC,MISSING_CAPACITY,capacity_mw is NaN,
+USA0000233,Deer Creek PH,MISSING_CAPACITY,capacity_mw is NaN,
+WKS0065667,Durg,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1023176,Kilo-X Nec,MISSING_CAPACITY,capacity_mw is NaN,
+GBR0000507,Brazier Landfill Scheme,MISSING_CAPACITY,capacity_mw is NaN,
+BRA0030420,Buriti,MISSING_CAPACITY,capacity_mw is NaN,
+USA0060848,Temple Solar Arrays,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1024817,Saint-Denis,MISSING_CAPACITY,capacity_mw is NaN,
+BRA0030382,Rondinha,MISSING_CAPACITY,capacity_mw is NaN,
+URY0000818,PARQUE EÓLICO MALDONADO II,MISSING_CAPACITY,capacity_mw is NaN,
+USA0061670,RJC II Community Solar Garden,MISSING_CAPACITY,capacity_mw is NaN,
+USA0059117,DD Fayetteville Solar NC LLC,MISSING_CAPACITY,capacity_mw is NaN,
+BRA0030026,Guaíra Energética,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1003244,Hynna,MISSING_CAPACITY,capacity_mw is NaN,
+BRA0029911,Fibrasa Embalagens,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1071754,Huaneng Tongyu Xinhua 1D,MISSING_CAPACITY,capacity_mw is NaN,
+USA0000722,Sinclair Dam,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1071632,Sichuan Kangding County Lajiaogou Second Stage,MISSING_CAPACITY,capacity_mw is NaN,
+USA0010216,Alabama River Pulp,MISSING_CAPACITY,capacity_mw is NaN,
+USA0060503,Crowned Ridge Wind Energy Center,MISSING_CAPACITY,capacity_mw is NaN,
+WKS0063340,Saint-Cyprien,MISSING_CAPACITY,capacity_mw is NaN,
+USA0059882,Exelon West Medway II LLC,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1025533,Génos,MISSING_CAPACITY,capacity_mw is NaN,
+USA0061443,Foundation Mann Packing,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1006591,LA REMOLINA GR 1,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1070836,Datang Qingyuan power station,MISSING_CAPACITY,capacity_mw is NaN,
+USA0000903,Rockton,MISSING_CAPACITY,capacity_mw is NaN,
+USA0063237,Old Court Rd Solar,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1071055,Hanpingzui,MISSING_CAPACITY,capacity_mw is NaN,
+GBR0003971,Cotton Farm,MISSING_CAPACITY,capacity_mw is NaN,
+GBR0002072,The Old Airfield,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1001635,Kohinoor Energy Limited,MISSING_CAPACITY,capacity_mw is NaN,
+GBR0004404,Noble Foods,MISSING_CAPACITY,capacity_mw is NaN,
+BRA0029554,Muricy (Antiga Camaçari Muricy I),MISSING_CAPACITY,capacity_mw is NaN,
+USA0054555,Collierville Powerhouse,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1070862,Shiquan Dam,MISSING_CAPACITY,capacity_mw is NaN,
+WKS0064816,Mashang,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1005703,Grohnde,MISSING_CAPACITY,capacity_mw is NaN,
+WKS0067124,Waddekothapally,MISSING_CAPACITY,capacity_mw is NaN,
+GBR0000633,Connon Bridge Landfill,MISSING_CAPACITY,capacity_mw is NaN,
+USA0000010,Greene County,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1000775,Koto Panjang Kampar,MISSING_CAPACITY,capacity_mw is NaN,
+USA0050879,Wheelabrator Frackville Energy,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1006756,P. E. CAMPALBO,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1071325,Yunnan Dali Wanhuaxi Small Plant,MISSING_CAPACITY,capacity_mw is NaN,
+GBR0004138,Maerdy,MISSING_CAPACITY,capacity_mw is NaN,
+USA0061307,Peterson Road Solar,MISSING_CAPACITY,capacity_mw is NaN,
+USA0061206,Onyx - Allen Harim,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1019373,Forshaga,MISSING_CAPACITY,capacity_mw is NaN,
+USA0061952,Whitt Solar,MISSING_CAPACITY,capacity_mw is NaN,
+USA0054533,Southern Minnesota Beet Sugar,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1001051,Nam Ngum 1,MISSING_CAPACITY,capacity_mw is NaN,
+WKS0073684,Shirakawa A,MISSING_CAPACITY,capacity_mw is NaN,
+IND0000179,KANHER,MISSING_CAPACITY,capacity_mw is NaN,
+CAN0008072,Lower Sturgeon,MISSING_CAPACITY,capacity_mw is NaN,
+USA0063409,Williamson,MISSING_CAPACITY,capacity_mw is NaN,
+USA0002082,Fairgrounds,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1007900,SERRA DE VILOBI,MISSING_CAPACITY,capacity_mw is NaN,
+GEODB0042648,Kreplany Hydroelectric Power Plant Slovakia,MISSING_CAPACITY,capacity_mw is NaN,
+BRA0029072,Victor Baptista Adami (Antiga Passos Maia),MISSING_CAPACITY,capacity_mw is NaN,
+WRI1025905,Schwarzheide Solar Power Plant,MISSING_CAPACITY,capacity_mw is NaN,
+USA0061742,System Control Center,MISSING_CAPACITY,capacity_mw is NaN,
+USA0062760,Hopkinton CSG,MISSING_CAPACITY,capacity_mw is NaN,
+WKS0067242,Pambur GRT 2,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1020116,Hatchobaru Otake,MISSING_CAPACITY,capacity_mw is NaN,
+USA0058783,South Canal Hydro-1,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1018966,Pamukören 2,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1061395,Jurun Marinala,MISSING_CAPACITY,capacity_mw is NaN,
+CHL0000079,PUNITAQUI,MISSING_CAPACITY,capacity_mw is NaN,
+USA0007941,Nottoway Diesel Generating Facility,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1023136,Omburu,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1070184,Dabu Coal,MISSING_CAPACITY,capacity_mw is NaN,
+USA0056836,T-Bone Wind (10) LLC,MISSING_CAPACITY,capacity_mw is NaN,
+USA0059759,Glades Pike Generation Plant,MISSING_CAPACITY,capacity_mw is NaN,
+USA0059321,Los Vientos Windpower IV,MISSING_CAPACITY,capacity_mw is NaN,
+USA0060123,Castle Gap Solar Hybrid,MISSING_CAPACITY,capacity_mw is NaN,
+USA0054142,Hillcrest Pump Station,MISSING_CAPACITY,capacity_mw is NaN,
+GBR0002389,Wolseley National Distribution Centre,MISSING_CAPACITY,capacity_mw is NaN,
+BRA0031540,Serra das Vacas II,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1030901,Hat Liu,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1026622,TSOUKA TSOUGARI,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1072073,Fuqing Jiaru Wind Power Phase 2,MISSING_CAPACITY,capacity_mw is NaN,
+WRI1061545,Rakowice,MISSING_CAPACITY,capacity_mw is NaN,
+USA0057280,Aqua Ingrams Mill,MISSING_CAPACITY,capacity_mw is NaN,
