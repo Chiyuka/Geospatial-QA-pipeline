@@ -26,3 +26,10 @@ htmlcov/
 
 # VS Code
 .vscode/
+
+# Generated runtime files
+data/*.csv
+models/*.pkl
+reports/*.html
+reports/anomaly_map.html
+reports/anomaly_charts.html
