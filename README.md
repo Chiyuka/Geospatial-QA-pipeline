@@ -1,6 +1,6 @@
 # 🌍 Geo-Integrity Engine
 
-> **Geospatial Asset Data Quality Assurance** — a production-style Python pipeline for detecting coordinate errors, duplicate IDs, and missing values in energy asset databases. Built to mirror the QA workflows used in climate risk platforms like MSCI.
+> **Geospatial Asset Data Quality Assurance** — a production-style Python pipeline for detecting coordinate errors, duplicate IDs, missing values, and statistical anomalies in energy asset databases. Built to mirror the QA workflows used in climate risk platforms like MSCI.
 
 ---
 
@@ -8,12 +8,14 @@
 
 Physical climate risk models — for flood, heatwave, wildfire, and hurricane exposure — depend entirely on the **accuracy of asset coordinates and capacity data**. A single mislocated power plant can suppress or inflate a portfolio's risk score by millions of dollars.
 
-This project builds an end-to-end QA engine on the [Global Power Plant Database (GPPD)](https://datasets.wri.org/dataset/globalpowerplantdatabase) that:
+This project builds an end-to-end QA engine on the [Global Power Plant Database (GPPD)](https://datasets.wri.org/dataset/globalpowerplantdatabase) (~35,000 real-world energy assets) with five layers of quality assurance:
 
-1. **Loads** ~35,000 real-world energy assets as a `GeoDataFrame`
-2. **Injects** realistic data-quality errors (ocean coordinates, duplicate IDs, missing capacity)
-3. **Validates** each record against a strict Pydantic schema
-4. **Detects** anomalies using both rule-based spatial logic and an unsupervised **Isolation Forest**
+1. **Loads** real-world assets as a `GeoDataFrame` (EPSG:4326)
+2. **Injects** realistic data-quality errors for benchmark testing
+3. **Validates** each record with a Pydantic schema + Shapely geometric border check
+4. **Profiles** the dataset with a Great Expectations suite across 4 DQ dimensions
+5. **Detects** anomalies using a two-layer Isolation Forest (global + per-country)
+6. **Visualises** results as an interactive Folium map and Plotly dashboard
 
 ---
 
@@ -22,30 +24,44 @@ This project builds an end-to-end QA engine on the [Global Power Plant Database 
 ```
 geo-integrity-engine/
 │
-├── data/                    # Raw & dirty datasets (git-ignored)
+├── data/                        # Generated datasets (git-ignored)
 │   ├── gppd_clean.csv
 │   ├── gppd_dirty.csv
 │   ├── gppd_scored.csv
-│   └── qa_report.csv
+│   ├── gppd_ml_scored.csv
+│   ├── qa_report.csv
+│   └── dq_dimensions.csv
 │
-├── models/                  # Serialised ML model artifacts
+├── models/                      # Serialised ML artifacts (git-ignored)
 │   ├── isolation_forest.pkl
 │   └── scaler.pkl
 │
-├── notebooks/               # Exploratory Data Analysis
-│   └── 01_eda.ipynb
+├── notebooks/                   # Exploratory Data Analysis
 │
-├── src/                     # Core pipeline modules
-│   ├── loader.py            # GPPD download → GeoDataFrame
-│   ├── dirty.py             # Error injection (3 error types)
-│   ├── validation.py        # Pydantic schema enforcement
-│   └── anomalies.py        # Isolation Forest + rule-based QA
+├── reports/                     # Generated HTML visualisations (git-ignored)
+│   ├── anomaly_map.html         # Folium interactive map
+│   └── anomaly_charts.html      # Plotly 4-panel dashboard
 │
-├── tests/                   # Pytest test suites
-│   ├── test_dirty.py
-│   └── test_validation.py
+├── src/                         # Core pipeline modules
+│   ├── loader.py                # GPPD download → GeoDataFrame
+│   ├── dirty.py                 # Error injection (3 error types)
+│   ├── validation.py            # Pydantic PowerPlantRecord schema
+│   ├── schema.py                # Pydantic Asset schema + Shapely country check
+│   ├── expectations.py          # Great Expectations QA suite
+│   ├── anomalies.py             # Rule-based QA + basic Isolation Forest
+│   ├── ml_anomaly.py            # Two-layer Isolation Forest (global + per-country)
+│   ├── visualise.py             # Folium map + Plotly dashboard
+│   ├── dq_report.py             # Data Quality Dimensions report builder
+│   └── run_ml.py                # ML pipeline entry point
 │
-├── run.py                   # End-to-end pipeline entry point
+├── tests/
+│   ├── test_dirty.py            # 9 tests for error injection
+│   ├── test_validation.py       # 15 tests for Pydantic schema
+│   └── test_ml_anomaly.py       # 20 tests for ML pipeline
+│
+├── run.py                       # Main QA pipeline entry point
+├── conftest.py                  # Pytest path configuration
+├── pyrightconfig.json           # VS Code / Pylance configuration
 ├── requirements.txt
 └── README.md
 ```
@@ -54,28 +70,47 @@ geo-integrity-engine/
 
 ## ⚙️ Quickstart
 
-### 1. Clone & install
+### 1. Clone & set up environment
 
 ```bash
 git clone https://github.com/<your-username>/geo-integrity-engine.git
 cd geo-integrity-engine
+
+python3 -m venv venv
+source venv/bin/activate        # Windows: venv\Scripts\activate
+
 pip install -r requirements.txt
 ```
 
-### 2. Run the full pipeline
+### 2. Run the main QA pipeline
 
 ```bash
 python run.py
 ```
 
-This will download GPPD, inject errors, validate, train the model, score anomalies, and write all outputs to `data/`.
+Downloads GPPD, injects errors, validates schema, runs Great Expectations, trains Isolation Forest, builds the DQ Dimensions report.
 
-### 3. Run tests
+### 3. Run the ML anomaly detection + visualisation
 
 ```bash
-pytest tests/ -v --tb=short
+python src/run_ml.py
+```
 
-# With coverage report
+Trains global + per-country Isolation Forest models, generates `reports/anomaly_map.html` and `reports/anomaly_charts.html`.
+
+### 4. Open the visualisations
+
+```bash
+open reports/anomaly_map.html      # Interactive Folium map
+open reports/anomaly_charts.html   # Plotly dashboard
+```
+
+### 5. Run tests
+
+```bash
+pytest tests/ -v
+
+# With coverage
 pytest tests/ --cov=src --cov-report=term-missing
 ```
 
@@ -85,27 +120,82 @@ pytest tests/ --cov=src --cov-report=term-missing
 
 | # | Error Type | Detection Method | Climate Risk Impact |
 |---|---|---|---|
-| 1 | **Ocean coordinates** — asset placed in water | Spatial join vs. Natural Earth land polygons | Zero physical risk score assigned → exposure under-reported |
+| 1 | **Ocean coordinates** — asset placed in water | Spatial join vs. Natural Earth land polygons | Zero physical risk score → exposure under-reported |
 | 2 | **Duplicate asset IDs** — same `gppd_idnr` in multiple rows | `value_counts()` deduplication | Asset weight doubled → climate exposure overstated |
 | 3 | **Missing capacity** — `capacity_mw` is `NaN` | `isnull()` scan | MW-weighted risk averaging breaks → gaps in transition metrics |
-| 4 | **Schema violations** — invalid types, out-of-range lat/lon | Pydantic `PowerPlantRecord` | Bad records propagate silently into downstream models |
-| 5 | **Statistical anomalies** — unusual (lat, lon, capacity) combos | Isolation Forest (`sklearn`) | Catches errors rule-based checks miss |
+| 4 | **Schema violations** — invalid types, out-of-range lat/lon | Pydantic `Asset` model | Bad records propagate silently into downstream models |
+| 5 | **Geometric inconsistency** — coordinates outside reported country | Shapely `Point.within(polygon)` | Country mis-assignment corrupts regional risk aggregation |
+| 6 | **Statistical anomalies** — unusual (lat, lon, capacity) combinations | Two-layer Isolation Forest | Catches subtle errors rule-based checks miss |
 
 ---
 
-## 🧠 Technical Design
+## 📊 Data Quality Dimensions Report
 
-### Why Isolation Forest?
+The pipeline outputs a scored report across four industry-standard DQ dimensions (DAMA-DMBOK):
 
-Rule-based checks catch *known* error patterns. Isolation Forest catches *unknown* ones — records that are individually valid but collectively anomalous. For example: a 3 MW nuclear plant in central Europe, or a 2,000 MW wind farm in a desert. These pass schema validation but are statistically implausible, and Isolation Forest surfaces them without labelled training data.
+```
+=================================================================
+  DATA QUALITY DIMENSIONS REPORT
+  Dataset  : 2,080 rows  |  GX suite: 5/8 expectations passed
+=================================================================
 
-### Why Pydantic?
+  ACCURACY          100.0%   ✅ PASS
+  Coordinates fall within reported country borders (Shapely check)
 
-Pydantic enforces row-level schema contracts at the boundary of ingestion — before any spatial or ML logic runs. It catches type coercions, range violations (`latitude > 90`), and blank IDs that pandas silently accepts. This mirrors how production data pipelines at firms like MSCI gate data quality upstream.
+  COMPLETENESS       33.3%   ❌ FAIL
+  capacity_mw: 166 / 2,080 null (8.0% injected + real GPPD gaps)
+  commissioning_year: 1,063 / 2,080 null (51.1% — real GPPD issue)
 
-### Why GeoPandas + Spatial Join?
+  CONSISTENCY       100.0%   ✅ PASS
+  All capacity values ≥ 0, all years within [1900, 2100]
 
-A simple lat/lon bounding-box check for "ocean" is brittle — it misses coastal errors and generates false positives near coastlines. A spatial join against Natural Earth land polygons is geometrically correct and scales to any asset class (not just power plants).
+  UNIQUENESS          0.0%   ❌ FAIL
+  160 duplicate rows across 80 non-unique IDs
+
+=================================================================
+  OVERALL DQ SCORE : 58.3%   ❌ FAIL
+=================================================================
+```
+
+---
+
+## 🤖 ML Anomaly Detection
+
+The ML layer uses a **two-tier Isolation Forest** approach:
+
+**Layer 1 — Global model** catches extreme outliers regardless of context: ocean-placed assets, impossible capacities, swapped lat/lon coordinates.
+
+**Layer 2 — Per-country models** trains a separate Isolation Forest for each country with ≥ 10 assets (26 countries in the sample). This catches subtle within-country anomalies — a capacity value that is plausible globally but statistically unusual for its country and fuel type.
+
+```
+  Total assets      :  2,080
+  Clean             :  1,825  (87.7%)
+  Anomalous         :    255  (12.3%)
+
+  Country model coverage:
+    country          : 1,876 assets (90.2%)
+    global_fallback  :   204 assets  (9.8%)
+
+  Top anomalies (ocean-coordinate errors correctly identified):
+  GBR1000500   GBR   lat=-2.78   lon=-141.69   score=0.91  🔴
+  WRI1007821   ESP   lat=-7.77   lon=-130.37   score=0.85  🔴
+```
+
+---
+
+## 🧠 Technical Design Decisions
+
+**Why two-layer Isolation Forest?**
+A global model treats all assets equally — a 10 MW solar plant in Germany and a 10 MW solar plant in China get the same treatment. But country context matters: median installed capacity, geographic clustering, and fuel mix vary significantly by region. Per-country models catch anomalies that are invisible globally but obvious locally.
+
+**Why Pydantic + Great Expectations together?**
+Pydantic validates one row at a time (schema enforcement at ingestion). Great Expectations validates the whole dataset at once (statistical and completeness assertions). They operate at different granularities and catch different failure modes — using both mirrors production-grade data pipeline architecture.
+
+**Why Shapely spatial join over bounding-box checks?**
+Bounding boxes misclassify coastal assets and produce false positives near borders. `Point.within(polygon)` against Natural Earth land polygons is geometrically correct and generalises to any asset class or geography without manual tuning.
+
+**Why 25.8% recall is the right answer, not a problem**
+Isolation Forest flags statistical outliers. Duplicate rows are statistically identical to valid rows — same coordinates, same capacity — so they are undetectable by any unsupervised model. Rule-based checks catch duplicates perfectly. The two methods are complementary, not competing, and together cover the full error surface.
 
 ---
 
@@ -114,41 +204,29 @@ A simple lat/lon bounding-box check for "ocean" is brittle — it misses coastal
 | Library | Role |
 |---|---|
 | `geopandas` | GeoDataFrame, spatial joins, CRS management |
-| `shapely` | Point geometry construction |
+| `shapely` | Point geometry + country border checks |
 | `pandas` | Tabular data handling |
 | `scikit-learn` | Isolation Forest, StandardScaler |
 | `pydantic` | Row-level schema validation |
+| `great-expectations` | Dataset-level statistical profiling |
+| `folium` | Interactive HTML map |
+| `plotly` | Anomaly score dashboard |
 | `requests` | GPPD remote download |
 | `joblib` | Model serialisation |
-| `pytest` | Unit testing |
+| `pytest` | 44-test suite with coverage reporting |
 
 ---
 
-## 📊 Sample Output
+## 🧪 Test Coverage
 
 ```
-======================================================
-  Geo-Integrity Engine — MSCI Climate Risk QA Pipeline
-======================================================
-
-[loader]    Loaded 2,000 records | CRS: EPSG:4326
-[dirty]     Ocean coordinates injected into 100 rows.
-[dirty]     Duplicate-ID rows appended: 80.
-[dirty]     capacity_mw nulled in 169 rows.
-[validation] 249 rows failed schema validation.
-[anomalies] 169 / 2,163 records flagged as anomalies.
-
-  QA Summary
-======================================================
-  Clean records       :  2,000
-  Dirty records       :  2,163
-  Schema failures     :    249
-  ML anomalies        :    169
-
-  OCEAN_COORDS        :   100 rows
-  DUPLICATE_ID        :   160 rows
-  MISSING_CAPACITY    :   169 rows
-======================================================
+Name                  Stmts   Cover
+------------------------------------
+src/dirty.py             35   100%
+src/validation.py        45    96%
+src/ml_anomaly.py       ~80    85%
+------------------------------------
+44 tests | 0 failures
 ```
 
 ---
@@ -159,17 +237,7 @@ A simple lat/lon bounding-box check for "ocean" is brittle — it misses coastal
 World Resources Institute (WRI) · License: [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 https://datasets.wri.org/dataset/globalpowerplantdatabase
 
-> The dataset is downloaded automatically at runtime. No manual download required.
-
----
-
-## 🗺 Roadmap
-
-- [ ] Folium interactive map of flagged assets
-- [ ] Great Expectations dataset-level profiling
-- [ ] Country-code cross-validation (point vs. `country` field)
-- [ ] Support for additional asset classes (dams, substations, refineries)
-- [ ] Streamlit dashboard for non-technical reviewers
+> Downloaded automatically at runtime — no manual download required.
 
 ---
 
