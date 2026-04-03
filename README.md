@@ -243,6 +243,7 @@ https://datasets.wri.org/dataset/globalpowerplantdatabase
 
 ## 👤 Author
 
-Built as a portfolio project for the **Geospatial Asset Data Quality Assurance** internship at MSCI's Climate Risk Center.
+Built as a portfolio project for the **Geospatial Asset Data Quality Assurance**
 
-Feel free to open an issue or reach out if you have questions about the methodology.
+CS Student · 
+[github.com/Chiyuka](https://github.com/Chiyuka) · [www.linkedin.com/in/phannarong-tuon-734267296](https://www.linkedin.com/in/phannarong-tuon-734267296)
